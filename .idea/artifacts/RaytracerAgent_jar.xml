@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RaytracerAgent:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RaytracerAgent_jar</output-path>
+    <root id="archive" name="RaytracerAgent.jar">
+      <element id="module-output" name="RaytracerAgent" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../asm-5.0/lib/asm-5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

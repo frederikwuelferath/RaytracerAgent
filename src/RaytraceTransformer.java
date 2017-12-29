@@ -11,7 +11,7 @@ public class RaytraceTransformer implements ClassFileTransformer {
     public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined,
                             ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
 
-        if("/Users/Kuenzl/Documents/GitHub/SDRaytracer/SDRaytracer.java".equals(className)) {
+        if("/Users/Kuenzl/Documents/GitHub/SDRaytracer/SDRaytracer".equals(className)) {
             try {
                 ClassReader classReader = new ClassReader(classfileBuffer);
                 ClassWriter classWriter = new ClassWriter(classReader, ClassWriter.COMPUTE_FRAMES | ClassWriter.COMPUTE_MAXS);

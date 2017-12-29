@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Premain-Class: Agent
+Created-By: 1.8.0-ea (Oracle Corporation)
+Main-Class: Agent
+
